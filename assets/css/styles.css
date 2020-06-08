@@ -87,8 +87,11 @@ Section:first-of-type p{
     padding: 7vh 10% 3vh 10%;
     font-size: 1.2rem;
 }
-section:first-of-type p span{
+section p .break{
     display: block;
+}
+section p .col{
+    color: #B03B8D;
 }
 .marken{
     padding: 0 20%;
@@ -152,4 +155,8 @@ section:first-of-type p span{
 .box:nth-of-type(4) p{
     padding-right: 45%;
     color: #471F3B;
+}
+.footer{
+    background: url(../img/footer.jpg) center/cover no-repeat;
+    height: 100vh;
 }
