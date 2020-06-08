@@ -1,0 +1,44 @@
+/* colors: #B03B8D #471F3B #7C7B7B #F7CFE4*/
+html{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+}
+body{
+    margin: 0;
+}
+header{
+    text-align: center;
+    background: url(../img/HeaderBG.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 92.8vh;
+}
+nav{
+    position: sticky;
+    height: 7vh;
+    margin: 0;
+    background: #ffffff;
+    border-bottom: 1px solid #B03B8D;
+    top: 0;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 2vh 0 0 0;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #471F3B;
+    padding-left: 3%;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: #B03B8D;
+}
+main{
+    height: 200vh;
+}
