@@ -8,7 +8,7 @@ body{
 }
 header{
     text-align: center;
-    background: url(../img/HeaderBG.jpg) center/cover no-repeat;
+    background: url(../img/header.jpg) center/cover no-repeat;
     width: 100%;
     height: 92.8vh;
 }
@@ -44,49 +44,112 @@ main{
 section{
     border-bottom: 1px solid #B03B8D;
 }
-h1{
+section h1{
     color: #B03B8D;
     font-size: 3rem;
     padding-top: 5vh;
     margin-bottom: 1vh;
 }
-h2{
+section:first-of-type h2{
     color: #471F3B;
     margin-top: 0;
     padding-bottom: 5vh;
 }
-div{
+.rabatt{
     background: #F7CFE4;
     width: 300px;
     margin: auto;
     border-radius: 10%;
     box-shadow: 2px 2px 4px 2px #B03B8D;
 }
-div h2{
+.rabatt h2{
     color: #B03B8D;
     font-size: 4rem;
     padding: 3vh 0 0 0;
     margin-bottom: 0;
 }
-div h3{
+.rabatt h3{
     color: #B03B8D;
     font-size: 2.5rem;
     padding-top: 0;
     margin-top: 2vh;
 }
-div h4{
+.rabatt h4{
     color: #471F3B;
     font-size: 1.5rem;
     padding-bottom: 2vh;
 }
-div h4 span{
+.rabatt h4 span{
     display: block;
 }
-Section p{
+Section:first-of-type p{
     color: #471F3B;
     padding: 7vh 10% 3vh 10%;
     font-size: 1.2rem;
 }
-section p span{
+section:first-of-type p span{
     display: block;
+}
+.marken{
+    padding: 0 20%;
+}
+.box:nth-of-type(1){
+    margin-top: 10vh;
+    background: url(../img/Marke1.jpg) left/contain no-repeat;
+    height: 50vh;
+}
+.box:nth-of-type(1) h2{
+    padding-left: 45%;
+    color: #B03B8D;
+    padding-top: 10vh;
+}
+.box:nth-of-type(1) p{
+    padding-left: 45%;
+    color: #471F3B;
+}
+.box p span{
+    color: #B03B8D;
+}
+.box:nth-of-type(2){
+    margin-top: 10vh;
+    background: url(../img/Marke2.jpg) right/contain no-repeat;
+    height: 50vh;
+}
+.box:nth-of-type(2) h2{
+    padding-right: 45%;
+    color: #B03B8D;
+    padding-top: 10vh;
+}
+.box:nth-of-type(2) p{
+    padding-right: 45%;
+    color: #471F3B;
+}
+.box:nth-of-type(3){
+    margin-top: 10vh;
+    background: url(../img/Marke3.jpg) left/contain no-repeat;
+    height: 50vh;
+}
+.box:nth-of-type(3) h2{
+    padding-left: 45%;
+    color: #B03B8D;
+    padding-top: 10vh;
+}
+.box:nth-of-type(3) p{
+    padding-left: 45%;
+    color: #471F3B;
+}
+.box:nth-of-type(4){
+    margin-top: 10vh;
+    background: url(../img/Marke4.jpg) right/contain no-repeat;
+    height: 50vh;
+    margin-bottom: 10vh;
+}
+.box:nth-of-type(4) h2{
+    padding-right: 45%;
+    color: #B03B8D;
+    padding-top: 10vh;
+}
+.box:nth-of-type(4) p{
+    padding-right: 45%;
+    color: #471F3B;
 }
