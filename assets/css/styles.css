@@ -2,6 +2,7 @@
 html{
     font-family: 'Libre Franklin', sans-serif;
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 body{
     margin: 0;
@@ -49,6 +50,7 @@ section h1{
     font-size: 3rem;
     padding-top: 5vh;
     margin-bottom: 1vh;
+    text-shadow: 2px 2px 4px #471F3B;
 }
 section:first-of-type h2{
     color: #471F3B;
@@ -61,50 +63,71 @@ section:first-of-type h2{
     margin: auto;
     border-radius: 10%;
     box-shadow: 2px 2px 4px 2px #B03B8D;
+    padding-bottom: 2vh;
 }
-.rabatt h2{
+section .rabatt h2{
     color: #B03B8D;
     font-size: 4rem;
     padding: 3vh 0 0 0;
     margin-bottom: 0;
+    text-shadow: 2px 2px 4px #471F3B;
 }
-.rabatt h3{
+section .rabatt h3{
     color: #B03B8D;
     font-size: 2.5rem;
     padding-top: 0;
     margin-top: 2vh;
+    text-shadow: 2px 2px 4px #471F3B;
 }
-.rabatt h4{
+section .rabatt h4{
     color: #471F3B;
     font-size: 1.5rem;
     padding-bottom: 2vh;
 }
-.rabatt h4 span{
+section .rabatt h4 span{
     display: block;
 }
-Section:first-of-type p{
+section .rabatt a{
+    text-decoration: none;
+    background: #B03B8D;
+    color: #471F3B;
+    border-radius: 20%;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 0 2%;
+}
+section .rabatt a:hover{
+    border: 1px solid #471F3B;
+    box-shadow: 0px 0px 4px 2px #471F3B;
+}
+Section:first-of-type>h3{
     color: #471F3B;
     padding: 7vh 10% 3vh 10%;
     font-size: 1.2rem;
 }
-section p .break{
+section h3>.break{
     display: block;
 }
-section p .col{
+section h3>.col{
     color: #B03B8D;
 }
 .marken{
     padding: 0 20%;
 }
+.box:hover{
+    box-shadow: 0 0 4px 0.5px lightgray;
+}
 .box:nth-of-type(1){
     margin-top: 10vh;
     background: url(../img/Marke1.jpg) left/contain no-repeat;
     height: 50vh;
+    padding-right: 1.5%;
 }
 .box:nth-of-type(1) h2{
     padding-left: 45%;
     color: #B03B8D;
     padding-top: 10vh;
+    text-shadow: 1px 1px 2px #471F3B;
 }
 .box:nth-of-type(1) p{
     padding-left: 45%;
@@ -117,11 +140,13 @@ section p .col{
     margin-top: 10vh;
     background: url(../img/Marke2.jpg) right/contain no-repeat;
     height: 50vh;
+    padding-left: 1.5%;
 }
 .box:nth-of-type(2) h2{
     padding-right: 45%;
     color: #B03B8D;
     padding-top: 10vh;
+    text-shadow: 1px 1px 2px #471F3B;
 }
 .box:nth-of-type(2) p{
     padding-right: 45%;
@@ -131,11 +156,13 @@ section p .col{
     margin-top: 10vh;
     background: url(../img/Marke3.jpg) left/contain no-repeat;
     height: 50vh;
+    padding-right: 1.5%;
 }
 .box:nth-of-type(3) h2{
     padding-left: 45%;
     color: #B03B8D;
     padding-top: 10vh;
+    text-shadow: 1px 1px 2px #471F3B;
 }
 .box:nth-of-type(3) p{
     padding-left: 45%;
@@ -146,11 +173,13 @@ section p .col{
     background: url(../img/Marke4.jpg) right/contain no-repeat;
     height: 50vh;
     margin-bottom: 10vh;
+    padding-left: 1.5%;
 }
 .box:nth-of-type(4) h2{
     padding-right: 45%;
     color: #B03B8D;
     padding-top: 10vh;
+    text-shadow: 1px 1px 2px #471F3B;
 }
 .box:nth-of-type(4) p{
     padding-right: 45%;
@@ -159,4 +188,22 @@ section p .col{
 .footer{
     background: url(../img/footer.jpg) center/cover no-repeat;
     height: 100vh;
+}
+.kontakt{
+    text-align: left;
+    padding: 5%;
+}
+.kontakt h2{
+    color: #B03B8D;
+    border-bottom:1px dashed #B03B8D ;
+}
+.kontakt p{
+    color: #471F3B;
+    padding-right: 15%;
+}
+.kontakt p a{
+    color: #471F3B;
+}
+.kontakt p a:hover{
+    color: #B03B8D;
 }
